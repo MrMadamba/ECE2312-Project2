@@ -169,7 +169,7 @@ speech_with_sine_scaled = scaling_factor * speech_with_sine;
 sound(speech_with_sine, Fs_speech);
 
 % Save the resulting signal as a WAV file
-filename = 'team[YourTeamNumber]-speechchirp.wav';
+filename = 'team[MatthewMadamba]-speechchirp.wav';
 audiowrite(filename, speech_with_sine, Fs_speech);
 
 % Plot the spectrogram of the resulting signal
